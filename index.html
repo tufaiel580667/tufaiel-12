@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        #containet {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+
+        }
+
+        .photo img {
+
+            width: 400px;
+
+        }
+
+
+
+
+        .photo-datail {
+            display: none;
+            position: absolute;
+            top: 50px;
+            background-color: rgba(255, 0, 0, 0.505);
+            color: aqua;
+        }
+
+        .photo-Album {
+
+            width: 400px;
+            border: 1px solid cyan;
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+
+        }
+
+
+        .photo-Album:hover .photo-datail {
+            display: block;
+        }
+
+        .photo-Album:hover .photo img {
+            transform: scale(1.5);
+            transition: transform 2s linear;
+        }
+
+        h3 {
+            background-color: rgba(44, 139, 139, 0.465);
+            color: rgba(26, 214, 217, 0.826);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tufaiel Ahmed</h1>
+
+    <section id="containet">
+        <div class="photo-Album">
+            <div class="photo">
+                <img src="IMG_20210213_233154-01.jpeg" alt="">
+            </div>
+            <div class="photo-datail">
+                <h3>Bag Mama !</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum impedit optio dignissimos
+                    officiis
+                    at voluptatibus nihil quae. Voluptatum, similique dicta! Ratione rerum excepturi consectetur at
+                    eum,
+                    voluptatem fugit delectus eius.</p>
+
+            </div>
+
+        </div>
+
+        <div class="photo-Album">
+            <div class="photo">
+                <img src="IMG_20210213_233154-01.jpeg" alt="">
+            </div>
+            <div class="photo-datail">
+                <h3>Bage Mama</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum impedit optio dignissimos
+                    officiis
+                    at voluptatibus nihil quae. Voluptatum, similique dicta! Ratione rerum excepturi consectetur at
+                    eum,
+                    voluptatem fugit delectus eius.</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="photo-Album">
+            <div class="photo">
+                <img src="IMG_20210213_233154-01.jpeg" alt="">
+            </div>
+            <div class="photo-datail">
+                <h3>Bage Mama</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum impedit optio dignissimos
+                    officiis
+                    at voluptatibus nihil quae. Voluptatum, similique dicta! Ratione rerum excepturi consectetur at
+                    eum,
+                    voluptatem fugit delectus eius.</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="photo-Album">
+            <div class="photo">
+                <img src="IMG_20210213_233154-01.jpeg" alt="">
+            </div>
+            <div class="photo-datail">
+                <h3>Bag Mama !</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum impedit optio dignissimos
+                    officiis
+                    at voluptatibus nihil quae. Voluptatum, similique dicta! Ratione rerum excepturi consectetur at
+                    eum,
+                    voluptatem fugit delectus eius.</p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="photo-Album">
+            <div class="photo">
+                <img src="IMG_20210213_233154-01.jpeg" alt="">
+            </div>
+            <div class="photo-datail">
+                <h3>Bag Mama !</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum impedit optio dignissimos
+                    officiis
+                    at voluptatibus nihil quae. Voluptatum, similique dicta! Ratione rerum excepturi consectetur
+                    at
+                    eum,
+                    voluptatem fugit delectus eius.</p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="photo-Album">
+            <div class="photo">
+                <img src="IMG_20210213_233154-01.jpeg" alt="">
+            </div>
+            <div class="photo-datail">
+                <h3>Bag Mama !</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum impedit optio
+                    dignissimos
+                    officiis
+                    at voluptatibus nihil quae. Voluptatum, similique dicta! Ratione rerum excepturi
+                    consectetur at
+                    eum,
+                    voluptatem fugit delectus eius.</p>
+
+            </div>
+
+        </div>
+
+
+    </section>
+</body>
+
+</html>
